@@ -6,6 +6,7 @@ Live at **https://kaferu-games.github.io**.
 ## Games
 
 - **ClickTac: Idle Watch Clicker**: an idle clicker game about watches, clocks and time, for Android.
+- **Moon Lap**: a planet-racing game for Android (in testing).
 
 ## Pages
 
@@ -14,6 +15,8 @@ Live at **https://kaferu-games.github.io**.
 | Home | https://kaferu-games.github.io |
 | ClickTac privacy policy | https://kaferu-games.github.io/privacy.html |
 | ClickTac terms of use | https://kaferu-games.github.io/terms.html |
+| Moon Lap privacy policy | https://kaferu-games.github.io/moon-lap/privacy.html |
+| Moon Lap terms of use | https://kaferu-games.github.io/moon-lap/terms.html |
 | Open-source licences | https://kaferu-games.github.io/licenses.html |
 | app-ads.txt | https://kaferu-games.github.io/app-ads.txt |
 
