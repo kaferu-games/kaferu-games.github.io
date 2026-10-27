@@ -15,19 +15,23 @@ code{background:#efe9dc;padding:0 .2em;border-radius:3px}
 pre{white-space:pre-wrap;word-wrap:break-word;font-size:.8em;line-height:1.4;background:#f2eee4;padding:12px;border-radius:6px}
 mark.fill{background:#ffe14d;color:#000;padding:0 .15em}
 footer{max-width:760px;margin:0 auto;padding:16px;border-top:1px solid #d8d0bf;font-size:.9em}
+.logo-box{position:relative;width:240px;height:325px;margin:8px auto 16px}
+.logo-anim{position:absolute;left:-8px;top:-16px;display:block}.logo-still{display:none}
+@media (prefers-reduced-motion:reduce){.logo-anim{display:none}.logo-still{display:block}}
 </style>
 </head>
 <body>
 <main>
-<img src="kaferu-logo.png" alt="Kaferu Games Studio logo" width="240" height="325" style="display:block;margin:8px auto 16px">
+<div class="logo-box">
+<video class="logo-anim" src="kaferu-logo-anim.mp4" poster="kaferu-logo-anim-poster.png" width="256" height="341" autoplay muted playsinline preload="auto" aria-label="Kaferu Games Studio logo"></video>
+<img class="logo-still" src="kaferu-logo.png" alt="Kaferu Games Studio logo" width="240" height="325">
+</div>
 <h1>Kaferu Games Studio</h1>
 <p>Maker of ClickTac: Idle Watch Clicker.</p>
 <ul>
 <li><a href="privacy.html">ClickTac privacy policy</a></li>
 <li><a href="terms.html">ClickTac terms of use</a></li>
 <li><a href="odds.html">ClickTac pack chances</a></li>
-<li><a href="moon-lap/privacy.html">Moon Lap privacy policy</a></li>
-<li><a href="moon-lap/terms.html">Moon Lap terms of use</a></li>
 <li><a href="licenses.html">Open-source notices</a></li>
 </ul>
 <p>Contact: <a href="mailto:kaferu.games@gmail.com">kaferu.games@gmail.com</a></p>
