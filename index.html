@@ -15,16 +15,17 @@ code{background:#efe9dc;padding:0 .2em;border-radius:3px}
 pre{white-space:pre-wrap;word-wrap:break-word;font-size:.8em;line-height:1.4;background:#f2eee4;padding:12px;border-radius:6px}
 mark.fill{background:#ffe14d;color:#000;padding:0 .15em}
 footer{max-width:760px;margin:0 auto;padding:16px;border-top:1px solid #d8d0bf;font-size:.9em}
-.logo-box{position:relative;width:240px;height:325px;margin:8px auto 16px}
-.logo-anim{position:absolute;left:-8px;top:-16px;display:block}.logo-still{display:none}
+.logo-box{position:relative;width:296px;height:320px;margin:0 auto 8px;overflow:hidden}
+.logo-anim{position:absolute;left:calc(8px - 92px/3);top:calc(16px - 236px/3);width:calc(1024px/3);height:calc(1364px/3);display:block;image-rendering:pixelated}
+.logo-still{display:none;position:absolute;left:8px;top:16px;image-rendering:pixelated}
 @media (prefers-reduced-motion:reduce){.logo-anim{display:none}.logo-still{display:block}}
 </style>
 </head>
 <body>
 <main>
 <div class="logo-box">
-<video class="logo-anim" src="kaferu-logo-anim.mp4" poster="kaferu-logo-anim-poster.png" width="256" height="341" autoplay muted playsinline preload="auto" aria-label="Kaferu Games Studio logo"></video>
-<img class="logo-still" src="kaferu-logo.png" alt="Kaferu Games Studio logo" width="240" height="325">
+<video class="logo-anim" src="kaferu-logo-anim.mp4" poster="kaferu-logo-anim-poster.png" width="341" height="455" autoplay muted playsinline preload="auto" aria-label="Kaferu Games Studio logo"></video>
+<img class="logo-still" src="kaferu-logo.png" alt="Kaferu Games Studio logo" width="280" height="296">
 </div>
 <h1>Kaferu Games Studio</h1>
 <p>Maker of ClickTac: Idle Watch Clicker.</p>
